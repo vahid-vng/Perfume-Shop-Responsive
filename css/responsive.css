@@ -1,0 +1,32 @@
+@media screen and (max-width: 992px) {
+  .home {
+    padding: 100px 0;
+  }
+  .home .home-img img {
+    width: 200px !important;
+  }
+  .home-img {
+    text-align: center !important;
+    margin-top: -250px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .title h2 {
+    font-size: 20px;
+  }
+  .home {
+    padding: 0;
+  }
+  .home p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .home-content {
+    text-align: center !important;
+  }
+  .home h1 {
+    font-size: 40px;
+  }
+}
